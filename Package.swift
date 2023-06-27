@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "AlCore",
             url: "https://github.com/Alviere/alviere-core-ios.git",
-            .exact("0.9.21")
+            .exact("0.9.23")
         )
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RemittancesSDK",
-            url: "https://github.com/Alviere/alviere-remittances-ios/releases/download/0.9.22/RemittancesSDK.xcframework.zip",
-            checksum: "637feb2fe5105b962a41b5a5a474b56c750a20be26900b68962bf8dd9039b563"
+            url: "https://github.com/Alviere/alviere-remittances-ios/releases/download/0.9.23/RemittancesSDK.xcframework.zip",
+            checksum: "8b42e0829a0d8410ec5a744382f1f5a50ed78c38b4afe476235b2c3fa33729db"
         )
     ]
 )
