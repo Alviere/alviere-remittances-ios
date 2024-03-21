@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.9.25] 2024-03-21
+
+### Updated
+- Changed minimum supported version to iOS 13.0.
+- Removed country and currency fields from beneficiary update method.
+
+
 ## [0.9.24] 2024-01-31
 
 ### Added
