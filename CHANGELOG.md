@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.9.28] 2025-05-XX
+
+### Added
+- Added preview quote for international transfer method.
+- Added list and get SWIFT bank payout method allowed configurations for international transfers;
+- Added list allowed countries and currencies pairs for payout methods.
+
+
 ## [0.9.27] 2025-03-18
 
 ### Added
